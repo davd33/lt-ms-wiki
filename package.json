@@ -1,0 +1,30 @@
+{
+  "name": "lt-ms-wiki",
+  "version": "1.0.0",
+  "description": "Get texts from wikipedia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davd33/lt-ms-wiki.git"
+  },
+  "keywords": [
+    "wikipedia",
+    "microservice"
+  ],
+  "author": "David Rueda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davd33/lt-ms-wiki/issues"
+  },
+  "homepage": "https://github.com/davd33/lt-ms-wiki#readme",
+  "dependencies": {
+    "nodemw": "^0.10.1",
+    "seneca": "^3.4.0",
+    "seneca-balance-client": "^0.6.1",
+    "seneca-kubernetes": "github:davd33/seneca-kubernetes#80cc0680c893b36e129a69a7daab827b636f33e3",
+    "seneca-mesh": "^0.10.0"
+  }
+}
